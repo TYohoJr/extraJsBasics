@@ -1,0 +1,7 @@
+//running an http server and making an index.html file, do the following:
+
+//Create an HTML table using the image found at http://www.kentchemistry.com/RegentsExams/Jan_2015/63.png 
+
+
+//Make and run a javascript function that changes the text color of an HTML element, executed from a button.
+
