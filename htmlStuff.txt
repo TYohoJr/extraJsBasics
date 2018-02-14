@@ -2,6 +2,9 @@
 
 //Create an HTML table using the image found at http://www.kentchemistry.com/RegentsExams/Jan_2015/63.png 
 
+//Add a CSS class using jQuery when you hit a button.
 
 //Make and run a javascript function that changes the text color of an HTML element, executed from a button.
+
+
 
