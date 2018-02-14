@@ -13,19 +13,22 @@
   }
 
   function menuReturn(testObj){
-    for(var i =0; i < testObj.length; i++){
-      for(var j = 0; j < testObj[i].length; j++){
-        for(var k = 0; k < testObj[i][j].length; k++){
-          if(testObj[i][j][k][key] == menuitem)
-          return testObj[i][j][k];
-        }
-      }
+    for (var prop in testObj.menu.popup.menuitem){
+      console.log(testObj.menu.popup.menuitem[prop].value.toLowerCase())
     }
-    console.log(testObj[0][3][0]);
   }
 
-  console.log(menuReturn(thing));
+  menuReturn(thing);
 //write a function that iterates over the menuItems array in the object "thing" and returns the value property lower-cased
+function idCheck(testObj){
+    if(testObj.menu.id == null){
+      console.log("we need an id for this object,")
+    } else {
+      console.log(testObj.menu.id)
+    }
+}
+
+idCheck(thing);
 
 //write a function that accepts an object, and if the menu.id in the object is null, it returns "we need an id for this object,"
 //else, it returns the id number. You'll need to create a second thing object (call it something else) to test this.

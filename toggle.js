@@ -3,8 +3,10 @@ var bar = true;
 function toggle(){
   if (bar){
     console.log('yes');
+    bar = false;
   } else {
     console.log('no')
+    bar = true;
   }
 }
 
